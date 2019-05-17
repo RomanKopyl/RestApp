@@ -1,0 +1,19 @@
+{
+  "id": 17,
+  "date": null,
+  "amount": 3000.0,
+  "state": 99999,
+  "author": {
+    "id": 1,
+    "username": null,
+    "password": null,
+    "state": null,
+    "roles": null,
+    "authorities": null,
+    "credentialsNonExpired": true,
+    "accountNonExpired": true,
+    "accountNonLocked": true,
+    "enabled": true
+  },
+  "athorName": null
+}

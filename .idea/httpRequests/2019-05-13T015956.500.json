@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-05-13T10:59:56.795+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "Transaction missing",
+  "path": "/transactions/4"
+}

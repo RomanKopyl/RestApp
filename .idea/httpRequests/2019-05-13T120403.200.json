@@ -1,0 +1,25 @@
+{
+  "id": 2,
+  "date": "2019-05-10T08:07:06.000+0000",
+  "amount": 345.0,
+  "state": 1,
+  "author": {
+    "id": 1,
+    "username": "admin",
+    "password": "1",
+    "state": 1,
+    "roles": [
+      "USER",
+      "ADMIN"
+    ],
+    "authorities": [
+      "USER",
+      "ADMIN"
+    ],
+    "credentialsNonExpired": true,
+    "accountNonExpired": true,
+    "accountNonLocked": true,
+    "enabled": true
+  },
+  "athorName": "admin"
+}

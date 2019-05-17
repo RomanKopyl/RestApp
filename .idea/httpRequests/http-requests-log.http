@@ -1,0 +1,370 @@
+GET http://localhost:8080/transactions/4
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"amount": 3000}
+
+<> 2019-05-13T020048.500.json
+
+###
+
+GET http://localhost:8080/transactions/4
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"amount": 3000}
+
+<> 2019-05-13T015956.500.json
+
+###
+
+DELETE http://localhost:8080/transactions/4
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"amount": 3000}
+
+###
+
+GET http://localhost:8080/transactions/4
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"amount": 3000}
+
+<> 2019-05-13T015933.200.json
+
+###
+
+GET http://localhost:8080/transactions/3
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"amount": 3000}
+
+<> 2019-05-13T015906.500.json
+
+###
+
+DELETE http://localhost:8080/transactions/3
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"amount": 3000}
+
+###
+
+GET http://localhost:8080/transactions/3
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"amount": 3000}
+
+<> 2019-05-13T015845.200.json
+
+###
+
+GET http://localhost:8080/transactions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"amount": 3000}
+
+<> 2019-05-13T015825.200.json
+
+###
+
+GET http://localhost:8080/transactions/2
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"amount": 3000}
+
+<> 2019-05-13T015816.200.json
+
+###
+
+GET http://localhost:8080/transactions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"amount": 3000}
+
+<> 2019-05-13T015737.200.json
+
+###
+
+POST http://localhost:8080/transactions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"amount": 3000}
+
+<> 2019-05-13T015625.200.json
+
+###
+
+POST http://localhost:8080/transactions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"amount": 3000, "state": 99999, "author": {"id": 1}}
+
+<> 2019-05-13T123144.200.json
+
+###
+
+POST http://localhost:8080/transactions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"amount": 3000, "state": 99999, "user": {"id": 1}}
+
+<> 2019-05-13T123131.200.json
+
+###
+
+POST http://localhost:8080/transactions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"amount": 3000, "state": 99999, "user": {"id": 1}}
+
+<> 2019-05-13T123110.200.json
+
+###
+
+POST http://localhost:8080/transactions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"amount": 3000, "state": 99999, "user": {"id": 2}}
+
+<> 2019-05-13T123102.200.json
+
+###
+
+POST http://localhost:8080/transactions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"amount": 3000, "state": 99999, "athorName": "Админ"}
+
+<> 2019-05-13T122944.200.json
+
+###
+
+POST http://localhost:8080/transactions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"amount": 3000, "state": 99999}
+
+<> 2019-05-13T122750.200.json
+
+###
+
+POST http://localhost:8080/transactions
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"amount": 3000}
+
+<> 2019-05-13T122727.200.json
+
+###
+
+PUT http://localhost:8080/transactions/2
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"amount": 3000}
+
+<> 2019-05-13T120509.200.json
+
+###
+
+GET http://localhost:8080/transactions/2
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"amount": 3000}
+
+<> 2019-05-13T120501.200.json
+
+###
+
+GET http://localhost:8080/transactions/2
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"amount": 3000}
+
+<> 2019-05-13T120403.200.json
+
+###
+
+PUT http://localhost:8080/transactions/2
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"amount": 3000}
+
+<> 2019-05-13T120353.200.json
+
+###
+
+PUT http://localhost:8080/transactions/2
+Accept: */*
+Cache-Control: no-cache
+
+{"amount": 3000}
+
+<> 2019-05-13T120321.415.json
+
+###
+
+PUT http://localhost:8080/transactions/2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-13T120252.400.json
+
+###
+
+PUT http://localhost:8080/transactions/2
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+PUT http://localhost:8080/transactions/2
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8080/transactions/2
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/transactions/2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-13T120115.200.json
+
+###
+
+PUT http://localhost:8080/transactions/2
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+PUT http://localhost:8080/transactions/2
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+PUT http://localhost:8080/transactions/2
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+PUT http://localhost:8080/transactions/2
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+PUT http://localhost:8080/transactions/2
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+PUT http://localhost:8080/transactions/2
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+PUT http://localhost:8080/transactions/2
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/transactions/2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-13T115928.200.json
+
+###
+
+PUT http://localhost:8080/transactions/2
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+PUT http://localhost:8080/transactions
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+PUT http://localhost:8080/transactions
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+PUT http://localhost:8080/transactions
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+PUT http://localhost:8080/transactions
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+PUT http://localhost:8080/transactions
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-13T115342.404.json
+
+###
+

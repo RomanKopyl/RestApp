@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-05-13T09:02:52.677+0000",
+  "status": 400,
+  "error": "Bad Request",
+  "message": "Required request body is missing: public newProject.dto.ResponseTransactionDto newProject.controllers.TransactionsController.update(java.lang.Integer,newProject.dto.RequestTransactionDto) throws java.lang.Exception",
+  "path": "/transactions/2"
+}
